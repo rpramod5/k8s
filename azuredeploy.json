@@ -191,8 +191,8 @@
             }
         },
         "linuxAgentCount": {
-            "defaultValue": 1,
-            "minValue": 1,
+            "defaultValue": 0,
+            "minValue": 0,
             "maxValue": 100,
             "type": "int",
             "metadata": {
