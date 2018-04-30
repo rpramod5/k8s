@@ -293,14 +293,8 @@
                         "vmSize": "[parameters('windowsAgentVMSize')]",
                         "dnsPrefix": "[variables('agentsEndpointDNSNamePrefix')]",
                         "osType": "Windows"
-                    },
-                    {
-                        "name": "linuxpool",
-                        "count": "[parameters('linuxAgentCount')]",
-                        "vmSize": "[parameters('linuxAgentVMSize')]",
-                        "dnsPrefix": "[variables('agentsEndpointDNSNamePrefix')]",
-                        "osType": "Linux"
                     }
+                   
                 ],
                 "diagnosticsProfile": "[variables('diagnosticProfileFields')[variables('isUK')]]",
                 "linuxProfile": {
